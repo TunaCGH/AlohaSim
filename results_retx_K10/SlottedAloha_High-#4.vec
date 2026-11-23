@@ -1,0 +1,35 @@
+version 3
+run SlottedAloha_High-4-20261119-10:20:56-34062
+attr configname SlottedAloha_High
+attr datetime 20261119-10:20:56
+attr datetimef 20261119-102056
+attr experiment SlottedAloha_High
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 34062
+attr repetition 4
+attr replication #4
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+config description "Scenario 4: Slotted ALOHA - High load"
+config *.slotted true
+config *.Gnew 1.5
+config network AlohaNetwork
+config sim-time-limit 100s
+config repeat 5
+config cmdenv-express-mode true
+config *.N 20
+config **.packetBits 1000
+config **.dataRate 1e6
+config **.ackTimeout 1.5ms
+config **.backoffK 10
+config **.queueCapacity 20
+config **.vector-recording false
+
+vector 0 AlohaNetwork.server delay ETV
+

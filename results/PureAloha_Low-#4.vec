@@ -1,0 +1,36 @@
+version 3
+run PureAloha_Low-4-20261119-10:58:12-65596
+attr configname PureAloha_Low
+attr datetime 20261119-10:58:12
+attr datetimef 20261119-105812
+attr experiment PureAloha_Low
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 65596
+attr repetition 4
+attr replication #4
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+config description "Scenario 3: Pure ALOHA - Low load"
+config *.slotted false
+config *.Gnew 0.1
+config network AlohaNetwork
+config sim-time-limit 100s
+config repeat 5
+config cmdenv-express-mode true
+config *.N 20
+config **.packetBits 1000
+config **.dataRate 1e6
+config **.ackTimeout 1.5ms
+config **.backoffK 10
+config **.queueCapacity 20
+config **.maxRetries 0
+config **.vector-recording false
+
+vector 0 AlohaNetwork.server delay ETV
+

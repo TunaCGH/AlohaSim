@@ -1,0 +1,510 @@
+version 3
+run SlottedAloha_Moderate-4-20261119-10:20:44-33698
+attr configname SlottedAloha_Moderate
+attr datetime 20261119-10:20:44
+attr datetimef 20261119-102044
+attr experiment SlottedAloha_Moderate
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 33698
+attr repetition 4
+attr replication #4
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+config description "Scenario 5: Slotted ALOHA - Moderate load (Gnew=1.0)"
+config *.slotted true
+config *.Gnew 1.0
+config network AlohaNetwork
+config sim-time-limit 100s
+config repeat 5
+config cmdenv-express-mode true
+config *.N 20
+config **.packetBits 1000
+config **.dataRate 1e6
+config **.ackTimeout 1.5ms
+config **.backoffK 10
+config **.queueCapacity 20
+config **.vector-recording false
+
+par AlohaNetwork.host[0].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[0].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[0].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[0].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[0].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[0].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[1].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[1].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[1].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[1].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[1].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[1].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[2].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[2].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[2].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[2].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[2].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[2].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[3].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[3].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[3].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[3].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[3].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[3].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[4].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[4].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[4].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[4].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[4].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[4].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[5].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[5].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[5].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[5].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[5].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[5].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[6].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[6].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[6].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[6].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[6].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[6].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[7].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[7].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[7].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[7].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[7].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[7].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[8].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[8].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[8].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[8].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[8].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[8].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[9].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[9].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[9].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[9].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[9].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[9].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[10].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[10].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[10].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[10].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[10].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[10].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[11].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[11].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[11].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[11].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[11].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[11].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[12].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[12].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[12].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[12].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[12].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[12].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[13].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[13].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[13].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[13].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[13].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[13].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[14].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[14].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[14].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[14].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[14].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[14].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[15].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[15].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[15].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[15].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[15].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[15].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[16].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[16].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[16].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[16].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[16].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[16].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[17].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[17].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[17].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[17].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[17].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[17].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[18].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[18].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[18].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[18].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[18].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[18].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.host[19].gate$o.channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.host[19].gate$o.channel disabled false
+attr mutable ""
+par AlohaNetwork.host[19].gate$o.channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server.gate$o[19].channel typename "\"AlohaNetwork.Link\""
+par AlohaNetwork.server.gate$o[19].channel disabled false
+attr mutable ""
+par AlohaNetwork.server.gate$o[19].channel delay 9.999999999999999e-06s
+attr mutable ""
+attr unit s
+par AlohaNetwork.server typename "\"Server\""
+par AlohaNetwork.server packetBits 1000
+par AlohaNetwork.server dataRate 1e+06
+scalar AlohaNetwork.server N 20
+scalar AlohaNetwork.server Gnew 1
+scalar AlohaNetwork.server S 0.14323
+scalar AlohaNetwork.server G 2.96106
+scalar AlohaNetwork.server collisionRatio 0.9516186770953645
+scalar AlohaNetwork.server meanDelay 2.7228467243024705
+scalar AlohaNetwork.server rxPackets 296106
+scalar AlohaNetwork.server okPackets 14323
+scalar AlohaNetwork.server collisionEvents 81487
+par AlohaNetwork.host[0] typename "\"Host\""
+par AlohaNetwork.host[0] packetBits 1000
+par AlohaNetwork.host[0] dataRate 1e+06
+par AlohaNetwork.host[0] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[0] backoffK 10
+par AlohaNetwork.host[0] queueCapacity 20
+scalar AlohaNetwork.host[0] generated 4922
+scalar AlohaNetwork.host[0] dropped 4167
+scalar AlohaNetwork.host[0] attempts 14872
+scalar AlohaNetwork.host[0] delivered 735
+par AlohaNetwork.host[1] typename "\"Host\""
+par AlohaNetwork.host[1] packetBits 1000
+par AlohaNetwork.host[1] dataRate 1e+06
+par AlohaNetwork.host[1] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[1] backoffK 10
+par AlohaNetwork.host[1] queueCapacity 20
+scalar AlohaNetwork.host[1] generated 5078
+scalar AlohaNetwork.host[1] dropped 4352
+scalar AlohaNetwork.host[1] attempts 14817
+scalar AlohaNetwork.host[1] delivered 706
+par AlohaNetwork.host[2] typename "\"Host\""
+par AlohaNetwork.host[2] packetBits 1000
+par AlohaNetwork.host[2] dataRate 1e+06
+par AlohaNetwork.host[2] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[2] backoffK 10
+par AlohaNetwork.host[2] queueCapacity 20
+scalar AlohaNetwork.host[2] generated 5070
+scalar AlohaNetwork.host[2] dropped 4311
+scalar AlohaNetwork.host[2] attempts 14796
+scalar AlohaNetwork.host[2] delivered 739
+par AlohaNetwork.host[3] typename "\"Host\""
+par AlohaNetwork.host[3] packetBits 1000
+par AlohaNetwork.host[3] dataRate 1e+06
+par AlohaNetwork.host[3] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[3] backoffK 10
+par AlohaNetwork.host[3] queueCapacity 20
+scalar AlohaNetwork.host[3] generated 4978
+scalar AlohaNetwork.host[3] dropped 4295
+scalar AlohaNetwork.host[3] attempts 14755
+scalar AlohaNetwork.host[3] delivered 663
+par AlohaNetwork.host[4] typename "\"Host\""
+par AlohaNetwork.host[4] packetBits 1000
+par AlohaNetwork.host[4] dataRate 1e+06
+par AlohaNetwork.host[4] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[4] backoffK 10
+par AlohaNetwork.host[4] queueCapacity 20
+scalar AlohaNetwork.host[4] generated 4953
+scalar AlohaNetwork.host[4] dropped 4199
+scalar AlohaNetwork.host[4] attempts 14818
+scalar AlohaNetwork.host[4] delivered 734
+par AlohaNetwork.host[5] typename "\"Host\""
+par AlohaNetwork.host[5] packetBits 1000
+par AlohaNetwork.host[5] dataRate 1e+06
+par AlohaNetwork.host[5] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[5] backoffK 10
+par AlohaNetwork.host[5] queueCapacity 20
+scalar AlohaNetwork.host[5] generated 5096
+scalar AlohaNetwork.host[5] dropped 4324
+scalar AlohaNetwork.host[5] attempts 14850
+scalar AlohaNetwork.host[5] delivered 752
+par AlohaNetwork.host[6] typename "\"Host\""
+par AlohaNetwork.host[6] packetBits 1000
+par AlohaNetwork.host[6] dataRate 1e+06
+par AlohaNetwork.host[6] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[6] backoffK 10
+par AlohaNetwork.host[6] queueCapacity 20
+scalar AlohaNetwork.host[6] generated 5144
+scalar AlohaNetwork.host[6] dropped 4429
+scalar AlohaNetwork.host[6] attempts 14740
+scalar AlohaNetwork.host[6] delivered 695
+par AlohaNetwork.host[7] typename "\"Host\""
+par AlohaNetwork.host[7] packetBits 1000
+par AlohaNetwork.host[7] dataRate 1e+06
+par AlohaNetwork.host[7] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[7] backoffK 10
+par AlohaNetwork.host[7] queueCapacity 20
+scalar AlohaNetwork.host[7] generated 5012
+scalar AlohaNetwork.host[7] dropped 4270
+scalar AlohaNetwork.host[7] attempts 14768
+scalar AlohaNetwork.host[7] delivered 722
+par AlohaNetwork.host[8] typename "\"Host\""
+par AlohaNetwork.host[8] packetBits 1000
+par AlohaNetwork.host[8] dataRate 1e+06
+par AlohaNetwork.host[8] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[8] backoffK 10
+par AlohaNetwork.host[8] queueCapacity 20
+scalar AlohaNetwork.host[8] generated 5032
+scalar AlohaNetwork.host[8] dropped 4288
+scalar AlohaNetwork.host[8] attempts 14809
+scalar AlohaNetwork.host[8] delivered 724
+par AlohaNetwork.host[9] typename "\"Host\""
+par AlohaNetwork.host[9] packetBits 1000
+par AlohaNetwork.host[9] dataRate 1e+06
+par AlohaNetwork.host[9] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[9] backoffK 10
+par AlohaNetwork.host[9] queueCapacity 20
+scalar AlohaNetwork.host[9] generated 4892
+scalar AlohaNetwork.host[9] dropped 4130
+scalar AlohaNetwork.host[9] attempts 14768
+scalar AlohaNetwork.host[9] delivered 742
+par AlohaNetwork.host[10] typename "\"Host\""
+par AlohaNetwork.host[10] packetBits 1000
+par AlohaNetwork.host[10] dataRate 1e+06
+par AlohaNetwork.host[10] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[10] backoffK 10
+par AlohaNetwork.host[10] queueCapacity 20
+scalar AlohaNetwork.host[10] generated 5009
+scalar AlohaNetwork.host[10] dropped 4275
+scalar AlohaNetwork.host[10] attempts 14832
+scalar AlohaNetwork.host[10] delivered 714
+par AlohaNetwork.host[11] typename "\"Host\""
+par AlohaNetwork.host[11] packetBits 1000
+par AlohaNetwork.host[11] dataRate 1e+06
+par AlohaNetwork.host[11] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[11] backoffK 10
+par AlohaNetwork.host[11] queueCapacity 20
+scalar AlohaNetwork.host[11] generated 4947
+scalar AlohaNetwork.host[11] dropped 4223
+scalar AlohaNetwork.host[11] attempts 14863
+scalar AlohaNetwork.host[11] delivered 704
+par AlohaNetwork.host[12] typename "\"Host\""
+par AlohaNetwork.host[12] packetBits 1000
+par AlohaNetwork.host[12] dataRate 1e+06
+par AlohaNetwork.host[12] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[12] backoffK 10
+par AlohaNetwork.host[12] queueCapacity 20
+scalar AlohaNetwork.host[12] generated 5031
+scalar AlohaNetwork.host[12] dropped 4287
+scalar AlohaNetwork.host[12] attempts 14794
+scalar AlohaNetwork.host[12] delivered 724
+par AlohaNetwork.host[13] typename "\"Host\""
+par AlohaNetwork.host[13] packetBits 1000
+par AlohaNetwork.host[13] dataRate 1e+06
+par AlohaNetwork.host[13] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[13] backoffK 10
+par AlohaNetwork.host[13] queueCapacity 20
+scalar AlohaNetwork.host[13] generated 5086
+scalar AlohaNetwork.host[13] dropped 4353
+scalar AlohaNetwork.host[13] attempts 14793
+scalar AlohaNetwork.host[13] delivered 714
+par AlohaNetwork.host[14] typename "\"Host\""
+par AlohaNetwork.host[14] packetBits 1000
+par AlohaNetwork.host[14] dataRate 1e+06
+par AlohaNetwork.host[14] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[14] backoffK 10
+par AlohaNetwork.host[14] queueCapacity 20
+scalar AlohaNetwork.host[14] generated 5022
+scalar AlohaNetwork.host[14] dropped 4299
+scalar AlohaNetwork.host[14] attempts 14808
+scalar AlohaNetwork.host[14] delivered 703
+par AlohaNetwork.host[15] typename "\"Host\""
+par AlohaNetwork.host[15] packetBits 1000
+par AlohaNetwork.host[15] dataRate 1e+06
+par AlohaNetwork.host[15] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[15] backoffK 10
+par AlohaNetwork.host[15] queueCapacity 20
+scalar AlohaNetwork.host[15] generated 5037
+scalar AlohaNetwork.host[15] dropped 4280
+scalar AlohaNetwork.host[15] attempts 14835
+scalar AlohaNetwork.host[15] delivered 737
+par AlohaNetwork.host[16] typename "\"Host\""
+par AlohaNetwork.host[16] packetBits 1000
+par AlohaNetwork.host[16] dataRate 1e+06
+par AlohaNetwork.host[16] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[16] backoffK 10
+par AlohaNetwork.host[16] queueCapacity 20
+scalar AlohaNetwork.host[16] generated 5026
+scalar AlohaNetwork.host[16] dropped 4309
+scalar AlohaNetwork.host[16] attempts 14806
+scalar AlohaNetwork.host[16] delivered 697
+par AlohaNetwork.host[17] typename "\"Host\""
+par AlohaNetwork.host[17] packetBits 1000
+par AlohaNetwork.host[17] dataRate 1e+06
+par AlohaNetwork.host[17] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[17] backoffK 10
+par AlohaNetwork.host[17] queueCapacity 20
+scalar AlohaNetwork.host[17] generated 5085
+scalar AlohaNetwork.host[17] dropped 4384
+scalar AlohaNetwork.host[17] attempts 14748
+scalar AlohaNetwork.host[17] delivered 681
+par AlohaNetwork.host[18] typename "\"Host\""
+par AlohaNetwork.host[18] packetBits 1000
+par AlohaNetwork.host[18] dataRate 1e+06
+par AlohaNetwork.host[18] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[18] backoffK 10
+par AlohaNetwork.host[18] queueCapacity 20
+scalar AlohaNetwork.host[18] generated 5069
+scalar AlohaNetwork.host[18] dropped 4350
+scalar AlohaNetwork.host[18] attempts 14795
+scalar AlohaNetwork.host[18] delivered 699
+par AlohaNetwork.host[19] typename "\"Host\""
+par AlohaNetwork.host[19] packetBits 1000
+par AlohaNetwork.host[19] dataRate 1e+06
+par AlohaNetwork.host[19] ackTimeout 0.0015s
+attr unit s
+par AlohaNetwork.host[19] backoffK 10
+par AlohaNetwork.host[19] queueCapacity 20
+scalar AlohaNetwork.host[19] generated 5077
+scalar AlohaNetwork.host[19] dropped 4319
+scalar AlohaNetwork.host[19] attempts 14842
+scalar AlohaNetwork.host[19] delivered 738
+par AlohaNetwork typename "\"AlohaNetwork\""
+par AlohaNetwork N 20
+par AlohaNetwork Gnew 1
+par AlohaNetwork slotted true
+

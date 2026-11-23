@@ -1,0 +1,36 @@
+version 3
+run SlottedAloha_Moderate-3-20261119-10:58:13-65608
+attr configname SlottedAloha_Moderate
+attr datetime 20261119-10:58:13
+attr datetimef 20261119-105813
+attr experiment SlottedAloha_Moderate
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 65608
+attr repetition 3
+attr replication #3
+attr resultdir results
+attr runnumber 3
+attr seedset 3
+config description "Scenario 5: Slotted ALOHA - Moderate load (Gnew=1.0)"
+config *.slotted true
+config *.Gnew 1.0
+config network AlohaNetwork
+config sim-time-limit 100s
+config repeat 5
+config cmdenv-express-mode true
+config *.N 20
+config **.packetBits 1000
+config **.dataRate 1e6
+config **.ackTimeout 1.5ms
+config **.backoffK 10
+config **.queueCapacity 20
+config **.maxRetries 0
+config **.vector-recording false
+
+vector 0 AlohaNetwork.server delay ETV
+

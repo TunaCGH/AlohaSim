@@ -1,0 +1,36 @@
+file 873 1795058199                                             
+version 3
+run PureAloha_Moderate-4-20261119-10:16:39-29455
+attr configname PureAloha_Moderate
+attr datetime 20261119-10:16:39
+attr datetimef 20261119-101639
+attr experiment PureAloha_Moderate
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 29455
+attr repetition 4
+attr replication #4
+attr resultdir results
+attr runnumber 4
+attr seedset 4
+config description "Scenario 2: Pure ALOHA - Moderate load (Gnew=0.5)"
+config *.slotted false
+config *.Gnew 0.5
+config network AlohaNetwork
+config sim-time-limit 100s
+config repeat 5
+config cmdenv-express-mode true
+config *.N 20
+config **.packetBits 1000
+config **.dataRate 1e6
+config **.ackTimeout 1.5ms
+config **.backoffK 10
+config **.queueCapacity 20
+config **.vector-recording false
+
+vector 0 AlohaNetwork.server delay ETV
+

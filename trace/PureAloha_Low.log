@@ -1,0 +1,388 @@
+OMNeT++ Discrete Event Simulation  (C) 1992-2025 Andras Varga, OpenSim Ltd.
+Version: 6.4.0aipre2, build: 260526-7b9114f72c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from .:  1
+
+Preparing for running configuration PureAloha_Low, run #0...
+Assigned runID=PureAloha_Low-0-20261119-13:28:42-82396
+Setting up network "AlohaNetwork"...
+Recording eventlog to file `trace/PureAloha_Low-#0.elog'...
+Initializing...
+Initializing channel AlohaNetwork.host[0].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[0].channel, stage 0
+Initializing channel AlohaNetwork.host[1].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[1].channel, stage 0
+Initializing channel AlohaNetwork.host[2].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[2].channel, stage 0
+Initializing channel AlohaNetwork.host[3].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[3].channel, stage 0
+Initializing channel AlohaNetwork.host[4].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[4].channel, stage 0
+Initializing channel AlohaNetwork.host[5].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[5].channel, stage 0
+Initializing channel AlohaNetwork.host[6].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[6].channel, stage 0
+Initializing channel AlohaNetwork.host[7].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[7].channel, stage 0
+Initializing channel AlohaNetwork.host[8].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[8].channel, stage 0
+Initializing channel AlohaNetwork.host[9].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[9].channel, stage 0
+Initializing channel AlohaNetwork.host[10].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[10].channel, stage 0
+Initializing channel AlohaNetwork.host[11].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[11].channel, stage 0
+Initializing channel AlohaNetwork.host[12].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[12].channel, stage 0
+Initializing channel AlohaNetwork.host[13].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[13].channel, stage 0
+Initializing channel AlohaNetwork.host[14].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[14].channel, stage 0
+Initializing channel AlohaNetwork.host[15].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[15].channel, stage 0
+Initializing channel AlohaNetwork.host[16].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[16].channel, stage 0
+Initializing channel AlohaNetwork.host[17].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[17].channel, stage 0
+Initializing channel AlohaNetwork.host[18].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[18].channel, stage 0
+Initializing channel AlohaNetwork.host[19].gate$o.channel, stage 0
+Initializing channel AlohaNetwork.server.gate$o[19].channel, stage 0
+Initializing module AlohaNetwork, stage 0
+Initializing module AlohaNetwork.server, stage 0
+Initializing module AlohaNetwork.host[0], stage 0
+Initializing module AlohaNetwork.host[1], stage 0
+Initializing module AlohaNetwork.host[2], stage 0
+Initializing module AlohaNetwork.host[3], stage 0
+Initializing module AlohaNetwork.host[4], stage 0
+Initializing module AlohaNetwork.host[5], stage 0
+Initializing module AlohaNetwork.host[6], stage 0
+Initializing module AlohaNetwork.host[7], stage 0
+Initializing module AlohaNetwork.host[8], stage 0
+Initializing module AlohaNetwork.host[9], stage 0
+Initializing module AlohaNetwork.host[10], stage 0
+Initializing module AlohaNetwork.host[11], stage 0
+Initializing module AlohaNetwork.host[12], stage 0
+Initializing module AlohaNetwork.host[13], stage 0
+Initializing module AlohaNetwork.host[14], stage 0
+Initializing module AlohaNetwork.host[15], stage 0
+Initializing module AlohaNetwork.host[16], stage 0
+Initializing module AlohaNetwork.host[17], stage 0
+Initializing module AlohaNetwork.host[18], stage 0
+Initializing module AlohaNetwork.host[19], stage 0
+
+Running simulation...
+** Event #1  t=0.011676933819  on gen (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    2% completed  (2% total)
+** Event #2  t=0.011676933819  on tx (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    2% completed  (2% total)
+[INFO]	t=0.011676933819 host[15] TX start
+** Event #3  t=0.011686933819  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    2% completed  (2% total)
+[INFO]	t=0.011686933819 SERVER RX start from host[15]
+** Event #4  t=0.012686933819  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    2% completed  (2% total)
+[INFO]	t=0.012686933819 SERVER SUCCESS host[15]
+** Event #5  t=0.012696933819  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    2% completed  (2% total)
+** Event #6  t=0.063671228168  on gen (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    12% completed  (12% total)
+** Event #7  t=0.063671228168  on tx (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    12% completed  (12% total)
+[INFO]	t=0.063671228168 host[17] TX start
+** Event #8  t=0.063681228168  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    12% completed  (12% total)
+[INFO]	t=0.063681228168 SERVER RX start from host[17]
+** Event #9  t=0.064681228168  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    12% completed  (12% total)
+[INFO]	t=0.064681228168 SERVER SUCCESS host[17]
+** Event #10  t=0.064691228168  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    12% completed  (12% total)
+** Event #11  t=0.070631827828  on gen (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    14% completed  (14% total)
+** Event #12  t=0.070631827828  on tx (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    14% completed  (14% total)
+[INFO]	t=0.070631827828 host[13] TX start
+** Event #13  t=0.070641827828  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    14% completed  (14% total)
+[INFO]	t=0.070641827828 SERVER RX start from host[13]
+** Event #14  t=0.071641827828  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    14% completed  (14% total)
+[INFO]	t=0.071641827828 SERVER SUCCESS host[13]
+** Event #15  t=0.071651827828  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    14% completed  (14% total)
+** Event #16  t=0.09672042099  on gen (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    19% completed  (19% total)
+** Event #17  t=0.09672042099  on tx (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    19% completed  (19% total)
+[INFO]	t=0.09672042099 host[18] TX start
+** Event #18  t=0.09673042099  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    19% completed  (19% total)
+[INFO]	t=0.09673042099 SERVER RX start from host[18]
+** Event #19  t=0.097025632744  on gen (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    19% completed  (19% total)
+** Event #20  t=0.097025632744  on tx (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    19% completed  (19% total)
+[INFO]	t=0.097025632744 host[11] TX start
+** Event #21  t=0.097035632744  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    19% completed  (19% total)
+[INFO]	t=0.097035632744 SERVER RX start from host[11]
+** Event #22  t=0.098035632744  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    19% completed  (19% total)
+[INFO]	t=0.098035632744 SERVER COLLISION of 2 packets
+** Event #23  t=0.09822042099  on ackTimeout (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    19% completed  (19% total)
+[INFO]	t=0.09822042099 host[18] TIMEOUT
+** Event #24  t=0.098525632744  on ackTimeout (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    19% completed  (19% total)
+[INFO]	t=0.098525632744 host[11] TIMEOUT
+** Event #25  t=0.110209697334  on gen (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    22% completed  (22% total)
+** Event #26  t=0.110209697334  on tx (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    22% completed  (22% total)
+[INFO]	t=0.110209697334 host[8] TX start
+** Event #27  t=0.110219697334  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    22% completed  (22% total)
+[INFO]	t=0.110219697334 SERVER RX start from host[8]
+** Event #28  t=0.111219697334  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    22% completed  (22% total)
+[INFO]	t=0.111219697334 SERVER SUCCESS host[8]
+** Event #29  t=0.111229697334  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    22% completed  (22% total)
+** Event #30  t=0.115103839377  on gen (omnetpp::cMessage)  in AlohaNetwork.host[12] (Host, id=15)    23% completed  (23% total)
+** Event #31  t=0.115103839377  on tx (omnetpp::cMessage)  in AlohaNetwork.host[12] (Host, id=15)    23% completed  (23% total)
+[INFO]	t=0.115103839377 host[12] TX start
+** Event #32  t=0.115113839377  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    23% completed  (23% total)
+[INFO]	t=0.115113839377 SERVER RX start from host[12]
+** Event #33  t=0.116113839377  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    23% completed  (23% total)
+[INFO]	t=0.116113839377 SERVER SUCCESS host[12]
+** Event #34  t=0.116123839377  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[12] (Host, id=15)    23% completed  (23% total)
+** Event #35  t=0.12988926965  on gen (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    25% completed  (25% total)
+** Event #36  t=0.12988926965  on tx (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    25% completed  (25% total)
+[INFO]	t=0.12988926965 host[19] TX start
+** Event #37  t=0.12989926965  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    25% completed  (25% total)
+[INFO]	t=0.12989926965 SERVER RX start from host[19]
+** Event #38  t=0.13089926965  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    26% completed  (26% total)
+[INFO]	t=0.13089926965 SERVER SUCCESS host[19]
+** Event #39  t=0.13090926965  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    26% completed  (26% total)
+** Event #40  t=0.157440227996  on gen (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    31% completed  (31% total)
+** Event #41  t=0.157440227996  on tx (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    31% completed  (31% total)
+[INFO]	t=0.157440227996 host[6] TX start
+** Event #42  t=0.157450227996  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    31% completed  (31% total)
+[INFO]	t=0.157450227996 SERVER RX start from host[6]
+** Event #43  t=0.158450227996  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    31% completed  (31% total)
+[INFO]	t=0.158450227996 SERVER SUCCESS host[6]
+** Event #44  t=0.158460227996  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    31% completed  (31% total)
+** Event #45  t=0.159174900913  on gen (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    31% completed  (31% total)
+** Event #46  t=0.159174900913  on tx (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    31% completed  (31% total)
+[INFO]	t=0.159174900913 host[0] TX start
+** Event #47  t=0.159184900913  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    31% completed  (31% total)
+[INFO]	t=0.159184900913 SERVER RX start from host[0]
+** Event #48  t=0.160184900913  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    32% completed  (32% total)
+[INFO]	t=0.160184900913 SERVER SUCCESS host[0]
+** Event #49  t=0.160194900913  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    32% completed  (32% total)
+** Event #50  t=0.172177299089  on gen (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    34% completed  (34% total)
+** Event #51  t=0.172177299089  on tx (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    34% completed  (34% total)
+[INFO]	t=0.172177299089 host[6] TX start
+** Event #52  t=0.172187299089  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    34% completed  (34% total)
+[INFO]	t=0.172187299089 SERVER RX start from host[6]
+** Event #53  t=0.173187299089  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    34% completed  (34% total)
+[INFO]	t=0.173187299089 SERVER SUCCESS host[6]
+** Event #54  t=0.173197299089  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    34% completed  (34% total)
+** Event #55  t=0.179712077697  on gen (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    35% completed  (35% total)
+** Event #56  t=0.179712077697  on tx (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    35% completed  (35% total)
+[INFO]	t=0.179712077697 host[1] TX start
+** Event #57  t=0.179722077697  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    35% completed  (35% total)
+[INFO]	t=0.179722077697 SERVER RX start from host[1]
+** Event #58  t=0.180722077697  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    36% completed  (36% total)
+[INFO]	t=0.180722077697 SERVER SUCCESS host[1]
+** Event #59  t=0.180732077697  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    36% completed  (36% total)
+** Event #60  t=0.184644626294  on gen (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    36% completed  (36% total)
+** Event #61  t=0.184644626294  on tx (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    36% completed  (36% total)
+[INFO]	t=0.184644626294 host[4] TX start
+** Event #62  t=0.184654626294  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    36% completed  (36% total)
+[INFO]	t=0.184654626294 SERVER RX start from host[4]
+** Event #63  t=0.185654626294  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    37% completed  (37% total)
+[INFO]	t=0.185654626294 SERVER SUCCESS host[4]
+** Event #64  t=0.185664626294  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    37% completed  (37% total)
+** Event #65  t=0.188729743974  on gen (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    37% completed  (37% total)
+** Event #66  t=0.188729743974  on tx (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    37% completed  (37% total)
+[INFO]	t=0.188729743974 host[4] TX start
+** Event #67  t=0.188739743974  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    37% completed  (37% total)
+[INFO]	t=0.188739743974 SERVER RX start from host[4]
+** Event #68  t=0.189739743974  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    37% completed  (37% total)
+[INFO]	t=0.189739743974 SERVER SUCCESS host[4]
+** Event #69  t=0.189749743974  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    37% completed  (37% total)
+** Event #70  t=0.190409504314  on gen (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    38% completed  (38% total)
+** Event #71  t=0.190409504314  on tx (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    38% completed  (38% total)
+[INFO]	t=0.190409504314 host[6] TX start
+** Event #72  t=0.190419504314  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    38% completed  (38% total)
+[INFO]	t=0.190419504314 SERVER RX start from host[6]
+** Event #73  t=0.191419504314  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    38% completed  (38% total)
+[INFO]	t=0.191419504314 SERVER SUCCESS host[6]
+** Event #74  t=0.191429504314  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[6] (Host, id=9)    38% completed  (38% total)
+** Event #75  t=0.195401285279  on gen (omnetpp::cMessage)  in AlohaNetwork.host[9] (Host, id=12)    39% completed  (39% total)
+** Event #76  t=0.195401285279  on tx (omnetpp::cMessage)  in AlohaNetwork.host[9] (Host, id=12)    39% completed  (39% total)
+[INFO]	t=0.195401285279 host[9] TX start
+** Event #77  t=0.195411285279  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    39% completed  (39% total)
+[INFO]	t=0.195411285279 SERVER RX start from host[9]
+** Event #78  t=0.196411285279  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    39% completed  (39% total)
+[INFO]	t=0.196411285279 SERVER SUCCESS host[9]
+** Event #79  t=0.196421285279  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[9] (Host, id=12)    39% completed  (39% total)
+** Event #80  t=0.207631860133  on gen (omnetpp::cMessage)  in AlohaNetwork.host[10] (Host, id=13)    41% completed  (41% total)
+** Event #81  t=0.207631860133  on tx (omnetpp::cMessage)  in AlohaNetwork.host[10] (Host, id=13)    41% completed  (41% total)
+[INFO]	t=0.207631860133 host[10] TX start
+** Event #82  t=0.207641860133  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    41% completed  (41% total)
+[INFO]	t=0.207641860133 SERVER RX start from host[10]
+** Event #83  t=0.208641860133  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    41% completed  (41% total)
+[INFO]	t=0.208641860133 SERVER SUCCESS host[10]
+** Event #84  t=0.208651860133  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[10] (Host, id=13)    41% completed  (41% total)
+** Event #85  t=0.209984099137  on gen (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    41% completed  (41% total)
+** Event #86  t=0.209984099137  on tx (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    41% completed  (41% total)
+[INFO]	t=0.209984099137 host[8] TX start
+** Event #87  t=0.209994099137  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    41% completed  (41% total)
+[INFO]	t=0.209994099137 SERVER RX start from host[8]
+** Event #88  t=0.210994099137  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    42% completed  (42% total)
+[INFO]	t=0.210994099137 SERVER SUCCESS host[8]
+** Event #89  t=0.211004099137  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    42% completed  (42% total)
+** Event #90  t=0.221166650491  on gen (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    44% completed  (44% total)
+** Event #91  t=0.221166650491  on tx (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    44% completed  (44% total)
+[INFO]	t=0.221166650491 host[13] TX start
+** Event #92  t=0.221176650491  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    44% completed  (44% total)
+[INFO]	t=0.221176650491 SERVER RX start from host[13]
+** Event #93  t=0.222176650491  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    44% completed  (44% total)
+[INFO]	t=0.222176650491 SERVER SUCCESS host[13]
+** Event #94  t=0.222186650491  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[13] (Host, id=16)    44% completed  (44% total)
+** Event #95  t=0.227496934434  on gen (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    45% completed  (45% total)
+** Event #96  t=0.227496934434  on tx (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    45% completed  (45% total)
+[INFO]	t=0.227496934434 host[18] TX start
+** Event #97  t=0.227506934434  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    45% completed  (45% total)
+[INFO]	t=0.227506934434 SERVER RX start from host[18]
+** Event #98  t=0.228506934434  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    45% completed  (45% total)
+[INFO]	t=0.228506934434 SERVER SUCCESS host[18]
+** Event #99  t=0.228516934434  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[18] (Host, id=21)    45% completed  (45% total)
+** Event #100  t=0.24023026987  on gen (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    48% completed  (48% total)
+** Event #101  t=0.24023026987  on tx (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    48% completed  (48% total)
+[INFO]	t=0.24023026987 host[8] TX start
+** Event #102  t=0.24024026987  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    48% completed  (48% total)
+[INFO]	t=0.24024026987 SERVER RX start from host[8]
+** Event #103  t=0.24124026987  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    48% completed  (48% total)
+[INFO]	t=0.24124026987 SERVER SUCCESS host[8]
+** Event #104  t=0.24125026987  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[8] (Host, id=11)    48% completed  (48% total)
+** Event #105  t=0.241490500162  on gen (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    48% completed  (48% total)
+** Event #106  t=0.241490500162  on tx (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    48% completed  (48% total)
+[INFO]	t=0.241490500162 host[0] TX start
+** Event #107  t=0.241500500162  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    48% completed  (48% total)
+[INFO]	t=0.241500500162 SERVER RX start from host[0]
+** Event #108  t=0.242500500162  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    48% completed  (48% total)
+[INFO]	t=0.242500500162 SERVER SUCCESS host[0]
+** Event #109  t=0.242510500162  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    48% completed  (48% total)
+** Event #110  t=0.251186151609  on gen (omnetpp::cMessage)  in AlohaNetwork.host[2] (Host, id=5)    50% completed  (50% total)
+** Event #111  t=0.251186151609  on tx (omnetpp::cMessage)  in AlohaNetwork.host[2] (Host, id=5)    50% completed  (50% total)
+[INFO]	t=0.251186151609 host[2] TX start
+** Event #112  t=0.251196151609  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    50% completed  (50% total)
+[INFO]	t=0.251196151609 SERVER RX start from host[2]
+** Event #113  t=0.252196151609  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    50% completed  (50% total)
+[INFO]	t=0.252196151609 SERVER SUCCESS host[2]
+** Event #114  t=0.252206151609  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[2] (Host, id=5)    50% completed  (50% total)
+** Event #115  t=0.264912203324  on gen (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    52% completed  (52% total)
+** Event #116  t=0.264912203324  on tx (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    52% completed  (52% total)
+[INFO]	t=0.264912203324 host[11] TX start
+** Event #117  t=0.264922203324  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    52% completed  (52% total)
+[INFO]	t=0.264922203324 SERVER RX start from host[11]
+** Event #118  t=0.265922203324  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    53% completed  (53% total)
+[INFO]	t=0.265922203324 SERVER SUCCESS host[11]
+** Event #119  t=0.265932203324  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[11] (Host, id=14)    53% completed  (53% total)
+** Event #120  t=0.280579371425  on gen (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    56% completed  (56% total)
+** Event #121  t=0.280579371425  on tx (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    56% completed  (56% total)
+[INFO]	t=0.280579371425 host[4] TX start
+** Event #122  t=0.280589371425  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    56% completed  (56% total)
+[INFO]	t=0.280589371425 SERVER RX start from host[4]
+** Event #123  t=0.281589371425  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    56% completed  (56% total)
+[INFO]	t=0.281589371425 SERVER SUCCESS host[4]
+** Event #124  t=0.281599371425  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    56% completed  (56% total)
+** Event #125  t=0.325456157344  on gen (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    65% completed  (65% total)
+** Event #126  t=0.325456157344  on tx (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    65% completed  (65% total)
+[INFO]	t=0.325456157344 host[15] TX start
+** Event #127  t=0.325466157344  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    65% completed  (65% total)
+[INFO]	t=0.325466157344 SERVER RX start from host[15]
+** Event #128  t=0.326466157344  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    65% completed  (65% total)
+[INFO]	t=0.326466157344 SERVER SUCCESS host[15]
+** Event #129  t=0.326476157344  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    65% completed  (65% total)
+** Event #130  t=0.369832334698  on gen (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    73% completed  (73% total)
+** Event #131  t=0.369832334698  on tx (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    73% completed  (73% total)
+[INFO]	t=0.369832334698 host[0] TX start
+** Event #132  t=0.369842334698  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    73% completed  (73% total)
+[INFO]	t=0.369842334698 SERVER RX start from host[0]
+** Event #133  t=0.370842334698  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    74% completed  (74% total)
+[INFO]	t=0.370842334698 SERVER SUCCESS host[0]
+** Event #134  t=0.370852334698  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[0] (Host, id=3)    74% completed  (74% total)
+** Event #135  t=0.371920842415  on gen (omnetpp::cMessage)  in AlohaNetwork.host[3] (Host, id=6)    74% completed  (74% total)
+** Event #136  t=0.371920842415  on tx (omnetpp::cMessage)  in AlohaNetwork.host[3] (Host, id=6)    74% completed  (74% total)
+[INFO]	t=0.371920842415 host[3] TX start
+** Event #137  t=0.371930842415  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    74% completed  (74% total)
+[INFO]	t=0.371930842415 SERVER RX start from host[3]
+** Event #138  t=0.372930842415  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    74% completed  (74% total)
+[INFO]	t=0.372930842415 SERVER SUCCESS host[3]
+** Event #139  t=0.372940842415  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[3] (Host, id=6)    74% completed  (74% total)
+** Event #140  t=0.375792810841  on gen (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    75% completed  (75% total)
+** Event #141  t=0.375792810841  on tx (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    75% completed  (75% total)
+[INFO]	t=0.375792810841 host[7] TX start
+** Event #142  t=0.375802810841  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    75% completed  (75% total)
+[INFO]	t=0.375802810841 SERVER RX start from host[7]
+** Event #143  t=0.376802810841  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    75% completed  (75% total)
+[INFO]	t=0.376802810841 SERVER SUCCESS host[7]
+** Event #144  t=0.376812810841  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    75% completed  (75% total)
+** Event #145  t=0.388634579359  on gen (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    77% completed  (77% total)
+** Event #146  t=0.388634579359  on tx (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    77% completed  (77% total)
+[INFO]	t=0.388634579359 host[1] TX start
+** Event #147  t=0.388644579359  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    77% completed  (77% total)
+[INFO]	t=0.388644579359 SERVER RX start from host[1]
+** Event #148  t=0.389644579359  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    77% completed  (77% total)
+[INFO]	t=0.389644579359 SERVER SUCCESS host[1]
+** Event #149  t=0.389654579359  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[1] (Host, id=4)    77% completed  (77% total)
+** Event #150  t=0.390309067177  on gen (omnetpp::cMessage)  in AlohaNetwork.host[5] (Host, id=8)    78% completed  (78% total)
+** Event #151  t=0.390309067177  on tx (omnetpp::cMessage)  in AlohaNetwork.host[5] (Host, id=8)    78% completed  (78% total)
+[INFO]	t=0.390309067177 host[5] TX start
+** Event #152  t=0.390319067177  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    78% completed  (78% total)
+[INFO]	t=0.390319067177 SERVER RX start from host[5]
+** Event #153  t=0.391319067177  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    78% completed  (78% total)
+[INFO]	t=0.391319067177 SERVER SUCCESS host[5]
+** Event #154  t=0.391329067177  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[5] (Host, id=8)    78% completed  (78% total)
+** Event #155  t=0.398113468233  on gen (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    79% completed  (79% total)
+** Event #156  t=0.398113468233  on tx (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    79% completed  (79% total)
+[INFO]	t=0.398113468233 host[17] TX start
+** Event #157  t=0.398123468233  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    79% completed  (79% total)
+[INFO]	t=0.398123468233 SERVER RX start from host[17]
+** Event #158  t=0.399123468233  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    79% completed  (79% total)
+[INFO]	t=0.399123468233 SERVER SUCCESS host[17]
+** Event #159  t=0.399133468233  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[17] (Host, id=20)    79% completed  (79% total)
+** Event #160  t=0.400967692729  on gen (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    80% completed  (80% total)
+** Event #161  t=0.400967692729  on tx (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    80% completed  (80% total)
+[INFO]	t=0.400967692729 host[7] TX start
+** Event #162  t=0.400977692729  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    80% completed  (80% total)
+[INFO]	t=0.400977692729 SERVER RX start from host[7]
+** Event #163  t=0.401977692729  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    80% completed  (80% total)
+[INFO]	t=0.401977692729 SERVER SUCCESS host[7]
+** Event #164  t=0.401987692729  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    80% completed  (80% total)
+** Event #165  t=0.40436526335  on gen (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    80% completed  (80% total)
+** Event #166  t=0.40436526335  on tx (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    80% completed  (80% total)
+[INFO]	t=0.40436526335 host[4] TX start
+** Event #167  t=0.40437526335  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    80% completed  (80% total)
+[INFO]	t=0.40437526335 SERVER RX start from host[4]
+** Event #168  t=0.40537526335  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    81% completed  (81% total)
+[INFO]	t=0.40537526335 SERVER SUCCESS host[4]
+** Event #169  t=0.40538526335  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[4] (Host, id=7)    81% completed  (81% total)
+** Event #170  t=0.431913628829  on gen (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    86% completed  (86% total)
+** Event #171  t=0.431913628829  on tx (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    86% completed  (86% total)
+[INFO]	t=0.431913628829 host[7] TX start
+** Event #172  t=0.431923628829  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    86% completed  (86% total)
+[INFO]	t=0.431923628829 SERVER RX start from host[7]
+** Event #173  t=0.432923628829  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    86% completed  (86% total)
+[INFO]	t=0.432923628829 SERVER SUCCESS host[7]
+** Event #174  t=0.432933628829  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[7] (Host, id=10)    86% completed  (86% total)
+** Event #175  t=0.444704884407  on gen (omnetpp::cMessage)  in AlohaNetwork.host[14] (Host, id=17)    88% completed  (88% total)
+** Event #176  t=0.444704884407  on tx (omnetpp::cMessage)  in AlohaNetwork.host[14] (Host, id=17)    88% completed  (88% total)
+[INFO]	t=0.444704884407 host[14] TX start
+** Event #177  t=0.444714884407  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    88% completed  (88% total)
+[INFO]	t=0.444714884407 SERVER RX start from host[14]
+** Event #178  t=0.445714884407  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    89% completed  (89% total)
+[INFO]	t=0.445714884407 SERVER SUCCESS host[14]
+** Event #179  t=0.445724884407  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[14] (Host, id=17)    89% completed  (89% total)
+** Event #180  t=0.472449041582  on gen (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    94% completed  (94% total)
+** Event #181  t=0.472449041582  on tx (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    94% completed  (94% total)
+[INFO]	t=0.472449041582 host[15] TX start
+** Event #182  t=0.472459041582  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    94% completed  (94% total)
+[INFO]	t=0.472459041582 SERVER RX start from host[15]
+** Event #183  t=0.473459041582  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    94% completed  (94% total)
+[INFO]	t=0.473459041582 SERVER SUCCESS host[15]
+** Event #184  t=0.473469041582  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[15] (Host, id=18)    94% completed  (94% total)
+** Event #185  t=0.491563122505  on gen (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    98% completed  (98% total)
+** Event #186  t=0.491563122505  on tx (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    98% completed  (98% total)
+[INFO]	t=0.491563122505 host[19] TX start
+** Event #187  t=0.491573122505  on data (omnetpp::cPacket)  in AlohaNetwork.server (Server, id=2)    98% completed  (98% total)
+[INFO]	t=0.491573122505 SERVER RX start from host[19]
+** Event #188  t=0.492573122505  on endOfReception (omnetpp::cMessage)  in AlohaNetwork.server (Server, id=2)    98% completed  (98% total)
+[INFO]	t=0.492573122505 SERVER SUCCESS host[19]
+** Event #189  t=0.492583122505  on ACK (omnetpp::cMessage)  in AlohaNetwork.host[19] (Host, id=22)    98% completed  (98% total)
+** Event #190  t=0.5  on endsimulation (omnetpp::cEndSimulationEvent)    100% completed  (100% total)
+
+<!> Simulation time limit reached -- at t=0.5s, event #190
+
+Calling finish() at end of Run #0...
+
+End.

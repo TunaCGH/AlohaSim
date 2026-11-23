@@ -1,0 +1,94 @@
+=============== PureAloha_High ===============
+File: trace/PureAloha_High.log   (Pure ALOHA)
+TX=746  server RX=746  SUCCESS=39  COLLISION events=135  TIMEOUT=705  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 39/39 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 705/705 dung
+[4] SUCCESS co lap (khoang cach >= T): 39/39 dung
+[5] COLLISION: cac TX ke nhau cach < T : 135/135 dung
+
+--- VI DU THANH CONG ---
+host[3]: TX=0.257086 s, server nhan=0.257096 s, SUCCESS=0.258096 s (TX->SUCCESS = 1.0100 ms)
+
+--- VI DU VA CHAM ---
+SERVER ket luan COLLISION luc 0.005719 s (2 goi):
+   host[17]: TX=0.004245 s
+   host[13]: TX=0.004709 s  (cach TX truoc: 0.4640 ms)
+=============== PureAloha_Moderate ===============
+File: trace/PureAloha_Moderate.log   (Pure ALOHA)
+TX=239  server RX=239  SUCCESS=97  COLLISION events=57  TIMEOUT=142  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 97/97 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 142/142 dung
+[4] SUCCESS co lap (khoang cach >= T): 97/97 dung
+[5] COLLISION: cac TX ke nhau cach < T : 57/57 dung
+
+--- VI DU THANH CONG ---
+host[7]: TX=0.269737 s, server nhan=0.269747 s, SUCCESS=0.270747 s (TX->SUCCESS = 1.0100 ms)
+
+--- VI DU VA CHAM ---
+SERVER ket luan COLLISION luc 0.020415 s (2 goi):
+   host[18]: TX=0.019344 s
+   host[11]: TX=0.019405 s  (cach TX truoc: 0.0610 ms)
+=============== PureAloha_Low ===============
+File: trace/PureAloha_Low.log   (Pure ALOHA)
+TX=38  server RX=38  SUCCESS=36  COLLISION events=1  TIMEOUT=2  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 36/36 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 2/2 dung
+[4] SUCCESS co lap (khoang cach >= T): 36/36 dung
+[5] COLLISION: cac TX ke nhau cach < T : 1/1 dung
+
+--- VI DU THANH CONG ---
+host[8]: TX=0.240230 s, server nhan=0.240240 s, SUCCESS=0.241240 s (TX->SUCCESS = 1.0100 ms)
+
+--- VI DU VA CHAM ---
+SERVER ket luan COLLISION luc 0.098036 s (2 goi):
+   host[18]: TX=0.096720 s
+   host[11]: TX=0.097026 s  (cach TX truoc: 0.3052 ms)
+=============== SlottedAloha_High ===============
+File: trace/SlottedAloha_High.log   (Slotted ALOHA)
+TX=745  server RX=744  SUCCESS=160  COLLISION events=233  TIMEOUT=583  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 160/160 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 583/583 dung
+[3] Slotted: TX la boi cua 1 ms      : 745/745 dung
+[4] SUCCESS co lap (khoang cach >= T): 160/160 dung
+[5] COLLISION: cung slot (cach nhau = 0) : 233/233 dung
+
+--- VI DU THANH CONG ---
+host[1]: TX=0.241000 s, server nhan=0.241010 s, SUCCESS=0.242010 s (TX->SUCCESS = 1.0100 ms)
+   TX mod 1 ms = 0 ps (0 = nam dung bien slot)
+
+--- VI DU VA CHAM ---
+SERVER ket luan COLLISION luc 0.006010 s (2 goi):
+   host[17]: TX=0.005000 s
+   host[13]: TX=0.005000 s  (cach TX truoc: 0.0000 ms)
+=============== SlottedAloha_Moderate ===============
+File: trace/SlottedAloha_Moderate.log   (Slotted ALOHA)
+TX=491  server RX=491  SUCCESS=195  COLLISION events=125  TIMEOUT=295  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 195/195 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 295/295 dung
+[3] Slotted: TX la boi cua 1 ms      : 491/491 dung
+[4] SUCCESS co lap (khoang cach >= T): 195/195 dung
+[5] COLLISION: cung slot (cach nhau = 0) : 125/125 dung
+
+--- VI DU THANH CONG ---
+host[0]: TX=0.251000 s, server nhan=0.251010 s, SUCCESS=0.252010 s (TX->SUCCESS = 1.0100 ms)
+   TX mod 1 ms = 0 ps (0 = nam dung bien slot)
+
+--- VI DU VA CHAM ---
+SERVER ket luan COLLISION luc 0.011010 s (2 goi):
+   host[18]: TX=0.010000 s
+   host[11]: TX=0.010000 s  (cach TX truoc: 0.0000 ms)
+=============== SlottedAloha_Low ===============
+File: trace/SlottedAloha_Low.log   (Slotted ALOHA)
+TX=38  server RX=38  SUCCESS=38  COLLISION events=0  TIMEOUT=0  LOST=0
+[1] TX->SUCCESS = T+prop = 1.010 ms : 38/38 dung
+[2] TIMEOUT = 1.5 ms sau TX          : 0/0 dung
+[3] Slotted: TX la boi cua 1 ms      : 38/38 dung
+[4] SUCCESS co lap (khoang cach >= T): 38/38 dung
+[5] COLLISION: cung slot (cach nhau = 0) : 0/0 dung
+
+--- VI DU THANH CONG ---
+host[18]: TX=0.228000 s, server nhan=0.228010 s, SUCCESS=0.229010 s (TX->SUCCESS = 1.0100 ms)
+   TX mod 1 ms = 0 ps (0 = nam dung bien slot)
+
+--- VI DU VA CHAM ---
+Khong co va cham trong log nay (thu tang sim-time-limit).
